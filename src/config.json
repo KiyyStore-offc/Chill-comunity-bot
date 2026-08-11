@@ -1,0 +1,52 @@
+{
+  "token": "YOUR_BOT_TOKEN",
+  "prefix": "!",
+  "ownerID": [
+    "1223581641470115931"
+  ],
+
+  "SpotifyID": "85aab1d51a174aad9eed6d7989f530e6",
+  "SpotifySecret": "b2ad05aa725e434c88776a1be8eab6c",
+  "LastFmKey": "892ec4bdf3b1ea3aa74353988aaa4ee1",
+  "LastFmSecret": "ac670032b9e8f4f96734e8f413b9488c",
+
+  "color": "#00D4FF",
+  "logs": "",
+  "node_source": "spsearch",
+
+  "links": {
+    "support": "https://discord.gg/bAR4RksMRm",
+    "invite": "https://discord.com/oauth2/authorize?client_id=1521414305642451014&permissions=8&integration_type=0&scope=bot+applications.commands",
+    "guild": "https://discord.gg/bAR4RksMRm"
+  },
+
+  "Webhooks": {
+    "black": "",
+    "player_create": "",
+    "player_delete": "",
+    "guild_join": "",
+    "guild_leave": "",
+    "cmdrun": ""
+  },
+
+  "nodes": [
+    {
+      "name": "AeroX-SSL",
+      "url": "lava-v4.ajieblogs.eu.org:443",
+      "auth": "https://dsc.gg/ajidevserver",
+      "secure": true
+    }
+  ],
+
+  "node_options": {
+    "moveOnDisconnect": true,
+    "resume": true,
+    "resumeTimeout": 60,
+    "resumeByLibrary": true,
+    "reconnectTries": 15,
+    "reconnectInterval": 10,
+    "restTimeout": 60000,
+    "voiceConnectionTimeout": 30000,
+    "userAgent": "Chill"
+  }
+}
